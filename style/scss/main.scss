@@ -1,3 +1,7 @@
-html {
-    background-color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,900;1,200&display=swap');
+@import './core/reset';
+@import './core/variables';
+@import './components/preloader';
+@import './layout/navbar';
+@import './components/buttons';
+@import './layout/container';
