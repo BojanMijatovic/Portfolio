@@ -4,6 +4,17 @@
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+@keyframes arrowMovement {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-30px); }
+  80% {
+    transform: translateY(0px); }
+  90% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
 * {
   margin: 0;
   padding: 0;
@@ -39,11 +50,36 @@ button {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+@keyframes arrowMovement {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-30px); }
+  80% {
+    transform: translateY(0px); }
+  90% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+@keyframes arrowMovement {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-30px); }
+  80% {
+    transform: translateY(0px); }
+  90% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
 .preloader {
   position: absolute;
   background-color: #fff;
@@ -72,3 +108,121 @@ button {
   margin: 0 auto;
   padding-left: 1.6rem;
   padding-right: 1.6rem; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes arrowMovement {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-30px); }
+  80% {
+    transform: translateY(0px); }
+  90% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 90;
+  box-shadow: 0px -3px 12px 0px #d6cfd6;
+  -webkit-box-shadow: 0px -3px 12px 0px #d6cfd6;
+  -moz-box-shadow: 0px -3px 12px 0px #d6cfd6;
+  display: none; }
+
+.navbar-sm {
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize; }
+
+.navbar-toggler {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  transition: var(--transition); }
+  .navbar-toggler:hover {
+    opacity: 0.6; }
+
+.navbar-collapse {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease; }
+
+.navbar-nav {
+  text-align: center; }
+
+.nav-item {
+  padding: 0.8rem;
+  border-bottom: 1.5px solid #f5f5f5; }
+  .nav-item:last-child {
+    border-bottom: none; }
+
+.nav-link {
+  text-transform: uppercase;
+  transition: all 0.4s ease; }
+  .nav-link:hover {
+    color: #c7c7c7; }
+
+.toggleNav {
+  padding: 1rem 0;
+  height: 17rem; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes arrowMovement {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-30px); }
+  80% {
+    transform: translateY(0px); }
+  90% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../-brian--portfolio-website-master/assets/banner-img.jpg") center/cover no-repeat fixed;
+  height: 100vh; }
+  .header .row {
+    height: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    text-align: center; }
+    .header .row .typeEffect {
+      font-size: 3.2rem;
+      font-weight: 900;
+      color: #fff; }
+    .header .row .down-arrow {
+      margin-top: 3rem;
+      animation-name: arrowMovement;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transition: all 0.4s ease; }
+      .header .row .down-arrow a {
+        color: #fff;
+        font-size: 2.5rem; }
+  .header .social-links {
+    display: flex; }
+    .header .social-links .__link {
+      color: #fff;
+      margin: 1rem;
+      font-size: 2.8rem;
+      transition: all 0.4s ease; }
+      .header .social-links .__link:hover {
+        opacity: 0.7;
+        cursor: pointer; }

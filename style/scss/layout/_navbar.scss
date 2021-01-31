@@ -1,0 +1,65 @@
+@import '../core/variables';
+.navbar {
+    background-color: $white-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 90;
+    box-shadow: 0px -3px 12px 0px rgba(214, 207, 214, 1);
+    -webkit-box-shadow: 0px -3px 12px 0px rgba(214, 207, 214, 1);
+    -moz-box-shadow: 0px -3px 12px 0px rgba(214, 207, 214, 1);
+    display: none;
+}
+
+.navbar-sm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    transition: var(--transition);
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.navbar-collapse {
+    height: 0;
+    overflow: hidden;
+    transition: $transition;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0.8rem;
+    border-bottom: 1.5px solid $whitesmoke-color;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.nav-link {
+    text-transform: uppercase;
+    transition: $transition;
+    &:hover {
+        color: $whitesmoke-hover;
+    }
+}
+
+.toggleNav {
+    padding: 1rem 0;
+    height: 17rem;
+}

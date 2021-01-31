@@ -1,0 +1,44 @@
+@import '../core/variables';
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../-brian--portfolio-website-master/assets/banner-img.jpg') center/cover no-repeat fixed;
+    height: 100vh;
+    // row
+    .row {
+        height: 100%;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        text-align: center;
+        .typeEffect {
+            font-size: 3.2rem;
+            font-weight: 900;
+            color: $white-color;
+        }
+        // down-arrow
+        .down-arrow {
+            margin-top: 3rem;
+            animation-name: arrowMovement;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: $transition;
+            a {
+                color: $white-color;
+                font-size: 2.5rem;
+            }
+        }
+    }
+    // social-links
+    .social-links {
+        display: flex;
+        .__link {
+            color: $white-color;
+            margin: 1rem;
+            font-size: 2.8rem;
+            transition: $transition;
+            &:hover {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+        }
+    }
+}
