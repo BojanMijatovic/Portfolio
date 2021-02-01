@@ -16,8 +16,8 @@
     display: flex;
     justify-content: space-between;
     //  responsive
-    // medium
-    @include media-md {
+    // media-medium-2
+    @include media-medium-2 {
         margin: 0;
         box-shadow: none;
         flex: 0 0 10rem;
@@ -39,8 +39,8 @@
         opacity: 0.6;
     }
     //  responsive
-    // medium
-    @include media-md {
+    // media-medium-2
+    @include media-medium-2 {
         display: none;
     }
 }
@@ -50,8 +50,8 @@
     overflow: hidden;
     transition: $transition;
     //  responsive
-    // medium
-    @include media-md {
+    // media-medium-2
+    @include media-medium-2 {
         height: 100%;
         flex: 1 0 auto;
     }
@@ -60,8 +60,8 @@
 .navbar-nav {
     text-align: center;
     //  responsive
-    // medium
-    @include media-md {
+    // media-medium-2
+    @include media-medium-2 {
         display: flex;
         justify-content: flex-end;
     }
@@ -74,8 +74,8 @@
         border-bottom: none;
     }
     //  responsive
-    // medium
-    @include media-md {
+    // media-medium-2
+    @include media-medium-2 {
         border-bottom: none;
         margin: 0 1rem;
     }

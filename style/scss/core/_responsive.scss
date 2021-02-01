@@ -11,7 +11,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@mixin media-m {
+@mixin media-medium-1 {
     @media only screen and (min-width: 768px) {
         @content;
     }
@@ -20,7 +20,7 @@
 
 /* Medium devices (landscape tablets, 992px and up) */
 
-@mixin media-md {
+@mixin media-medium-2 {
     @media only screen and (min-width: 992px) {
         @content;
     }
