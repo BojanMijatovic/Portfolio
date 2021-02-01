@@ -15,6 +15,13 @@
 .navbar-sm {
     display: flex;
     justify-content: space-between;
+    //  responsive
+    // medium
+    @include media-md {
+        margin: 0;
+        box-shadow: none;
+        flex: 0 0 10rem;
+    }
 }
 
 .navbar-brand {
@@ -31,16 +38,33 @@
     &:hover {
         opacity: 0.6;
     }
+    //  responsive
+    // medium
+    @include media-md {
+        display: none;
+    }
 }
 
 .navbar-collapse {
     height: 0;
     overflow: hidden;
     transition: $transition;
+    //  responsive
+    // medium
+    @include media-md {
+        height: 100%;
+        flex: 1 0 auto;
+    }
 }
 
 .navbar-nav {
     text-align: center;
+    //  responsive
+    // medium
+    @include media-md {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 .nav-item {
@@ -48,6 +72,12 @@
     border-bottom: 1.5px solid $whitesmoke-color;
     &:last-child {
         border-bottom: none;
+    }
+    //  responsive
+    // medium
+    @include media-md {
+        border-bottom: none;
+        margin: 0 1rem;
     }
 }
 

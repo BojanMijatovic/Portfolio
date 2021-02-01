@@ -1,0 +1,69 @@
+@import '../core/variables';
+.about {
+    padding-bottom: 0;
+    //  box Title
+    .boxTitle {
+        text-align: center;
+        padding: 0.5rem 1.8rem 0;
+        // title
+        .__title {
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: 4px;
+        }
+        //hoz-line
+        .hoz-line {
+            width: 100%;
+            height: 4px;
+            background-color: $darkCoral-color;
+            width: 8rem;
+            margin: 0.4rem auto 0.6rem auto;
+        }
+    }
+    .row {
+        // one
+        .one {
+            margin-bottom: 4rem;
+            .col-right {
+                .subtitle {
+                    padding: 2rem 0 0 0;
+                    font-size: 1.9rem;
+                    font-weight: 600;
+                }
+                .__text {
+                    padding: 0.4rem 0;
+                }
+            }
+        }
+        //    two
+        .two {
+            background-color: $whitesmoke-color;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            text-align: center;
+            .container {
+                .item {
+                    padding: 1.5rem;
+                    margin: 0.5rem 0;
+                    //  icon
+                    .icon {
+                        font-size: 2rem;
+                    }
+                    //  title
+                    .__title {
+                        text-transform: uppercase;
+                        font-weight: 300;
+                        font-size: 1.4rem;
+                    }
+                    //  text {
+                    .__text {
+                        width: 60%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
