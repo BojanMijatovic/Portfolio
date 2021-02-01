@@ -10,7 +10,7 @@
     // loader
     .loader {
         position: absolute;
-        left: 40%;
+        left: calc(50% - 30px);
         top: 45%;
         transform: translate(-50%, -50%);
         width: 6rem;
