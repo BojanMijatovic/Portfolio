@@ -458,7 +458,7 @@ button {
     opacity: 1; }
   .portfolio-grid .item::after {
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.9);
     content: '';
     left: 50%;
     top: 50%;
@@ -477,9 +477,26 @@ button {
     transition: all 0.4s ease; }
     .portfolio-grid .item .sub-item .__title {
       color: #fff;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 2.2rem;
+      margin-bottom: 4.2rem; }
     .portfolio-grid .item .sub-item .__text {
-      color: #fff; }
+      color: #fff;
+      font-size: 1.6rem; }
+    .portfolio-grid .item .sub-item .__link {
+      background-color: #f5f5f5;
+      font-size: 1.3rem;
+      padding: 0.7rem 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #000;
+      margin-top: 8rem;
+      border: none;
+      border-radius: 2.5rem;
+      transition: all 0.4s ease; }
+      .portfolio-grid .item .sub-item .__link:hover, .portfolio-grid .item .sub-item .__link:active {
+        background-color: #c7c7c7;
+        color: #333; }
 
 @keyframes spin {
   0% {
