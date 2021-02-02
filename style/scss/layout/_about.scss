@@ -30,6 +30,7 @@
                     }
                     .__text {
                         padding: 0.4rem 0;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -57,19 +58,20 @@
                     margin: 0.5rem 0;
                     //  icon
                     .icon {
-                        font-size: 2rem;
+                        font-size: 3rem;
                     }
                     //  title
                     .__title {
                         text-transform: uppercase;
-                        font-weight: 300;
-                        font-size: 1.4rem;
+                        font-weight: 500;
+                        font-size: 1.6rem;
                     }
                     //  text {
                     .__text {
                         width: 60%;
                         margin-left: auto;
                         margin-right: auto;
+                        font-size: 1.4rem;
                         //  responsive
                         // media-medium-2
                         @include media-medium-2 {

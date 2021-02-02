@@ -73,6 +73,13 @@
     &:last-child {
         border-bottom: none;
     }
+    &__link {
+        text-transform: uppercase;
+        transition: $transition;
+        &:hover {
+            color: $whitesmoke-hover;
+        }
+    }
     //  responsive
     // media-medium-2
     @include media-medium-2 {
@@ -81,15 +88,7 @@
     }
 }
 
-.nav-link {
-    text-transform: uppercase;
-    transition: $transition;
-    &:hover {
-        color: $whitesmoke-hover;
-    }
-}
-
 .toggleNav {
     padding: 1rem 0;
-    height: 14rem;
+    height: 17rem;
 }

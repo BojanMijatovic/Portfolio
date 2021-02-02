@@ -7,9 +7,19 @@ window.addEventListener('load', () => {
 // navbar toggle
 const navBtn = document.querySelector('.navbar-toggler');
 const navMenu = document.querySelector('.navbar-collapse');
+const navLinks = document.querySelectorAll(' .item__link');
+
 navBtn.addEventListener('click', () => {
     navMenu.classList.toggle('toggleNav');
 })
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.toggle('toggleNav');
+    })
+})
+
+
 
 //  typewriter
 
