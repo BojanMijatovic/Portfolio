@@ -44,6 +44,8 @@ a {
   text-decoration: none;
   color: #000;
   font-size: 1.5rem; }
+  a:focus, a:active {
+    outline: 0; }
 
 img {
   display: block;
@@ -183,8 +185,8 @@ button {
       flex: 0 0 10rem; } }
 
 .navbar-brand {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   text-transform: capitalize; }
 
 .navbar-toggler {
@@ -257,18 +259,18 @@ button {
   padding-bottom: 5rem; }
 
 .social-links {
-  display: flex; }
+  display: flex;
+  margin-top: 2rem; }
   .social-links .__link a {
     color: #fff;
-    margin: 1rem;
+    margin: 1rem 1.5rem;
     font-size: 2.8rem;
     transition: all 0.4s ease; }
   .social-links .__link:hover {
     opacity: 0.7;
     cursor: pointer; }
-  .social-links .__link:active {
-    border-style: none;
-    border: 0px; }
+  .social-links .__link:focus, .social-links .__link:active {
+    outline: 0; }
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/banner-img.jpg") center/cover no-repeat fixed;
@@ -621,18 +623,18 @@ button {
         color: #fff; }
 
 .social-links {
-  display: flex; }
+  display: flex;
+  margin-top: 2rem; }
   .social-links .__link a {
     color: #fff;
-    margin: 1rem;
+    margin: 1rem 1.5rem;
     font-size: 2.8rem;
     transition: all 0.4s ease; }
   .social-links .__link:hover {
     opacity: 0.7;
     cursor: pointer; }
-  .social-links .__link:active {
-    border-style: none;
-    border: 0px; }
+  .social-links .__link:focus, .social-links .__link:active {
+    outline: 0; }
 
 .footer {
   background-color: #000; }

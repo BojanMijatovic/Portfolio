@@ -1,14 +1,11 @@
 // social-links
 .social-links {
     display: flex;
+    margin-top: 2rem;
     .__link {
-        color: $white-color;
-        margin: 1rem;
-        font-size: 2.8rem;
-        transition: $transition;
         a {
             color: $white-color;
-            margin: 1rem;
+            margin: 1rem 1.5rem;
             font-size: 2.8rem;
             transition: $transition;
         }
