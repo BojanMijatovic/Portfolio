@@ -16,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     //  responsive
-    // media-medium-2
     @include media-medium-2 {
         margin: 0;
         box-shadow: none;
@@ -39,7 +38,6 @@
         opacity: 0.6;
     }
     //  responsive
-    // media-medium-2
     @include media-medium-2 {
         display: none;
     }
@@ -50,7 +48,6 @@
     overflow: hidden;
     transition: $transition;
     //  responsive
-    // media-medium-2
     @include media-medium-2 {
         height: 100%;
         flex: 1 0 auto;
@@ -60,7 +57,6 @@
 .navbar-nav {
     text-align: center;
     //  responsive
-    // media-medium-2
     @include media-medium-2 {
         display: flex;
         justify-content: flex-end;
@@ -81,7 +77,6 @@
         }
     }
     //  responsive
-    // media-medium-2
     @include media-medium-2 {
         border-bottom: none;
         margin: 0 1rem;
@@ -91,4 +86,8 @@
 .toggleNav {
     padding: 1rem 0;
     height: 17rem;
+    //  responsive
+    @include media-medium-2 {
+        height: 5rem;
+    }
 }

@@ -7,14 +7,12 @@
         width: 80%;
         margin: 0 auto;
         //  responsive
-        //media-medium-2
         @include media-medium-2 {
             width: 60%;
         }
         .row {
             padding-bottom: 1rem;
             //  responsive
-            //media-medium-1
             @include media-medium-1 {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -49,7 +47,6 @@
             padding: 1rem 0;
             div {
                 //  responsive
-                //media-medium-2
                 @include media-medium-2 {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);

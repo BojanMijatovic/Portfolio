@@ -31,10 +31,10 @@ let typewriter = new Typewriter(app, {
 typewriter.typeString('I\'m Bojan Mijatovic')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('I\'m Frontend Developer')
+    .typeString('Javascript Developer')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('I\'m Frontend Developer')
+    .typeString('Frontend Developer')
     .pauseFor(2500)
     .start()
 

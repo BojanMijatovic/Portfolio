@@ -5,13 +5,11 @@
 .portfolio-grid {
     // single item
     //  responsive
-    // media-medium-1
     @include media-medium-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
-    // media-medium-2
     @include media-medium-2 {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -19,7 +17,6 @@
         position: relative;
         margin: 2rem 0;
         //  responsive
-        // media-medium-1
         @include media-medium-1 {
             margin: 0;
         }
@@ -58,11 +55,21 @@
                 text-transform: uppercase;
                 font-size: 2.2rem;
                 margin-bottom: 4.2rem;
+                //  responsive
+                @include media-medium-2 {
+                    font-size: 1.4rem;
+                    margin-bottom: 1rem;
+                }
             }
             //  text
             .__text {
                 color: $white-color;
                 font-size: 1.6rem;
+                //  responsive
+                @include media-medium-2 {
+                    font-size: 1.3rem;
+                    margin-bottom: 0.5rem;
+                }
             }
             // link
             .__link {
@@ -76,6 +83,20 @@
                 border: none;
                 border-radius: 2.5rem;
                 transition: $transition;
+                a {
+                    font-size: 1.2rem;
+                    margin: 0.5rem 0;
+                    //  responsive
+                    @include media-medium-2 {
+                        margin-top: 1rem;
+                        background-color: transparent;
+                        padding: 0.5rem 2rem;
+                    }
+                }
+                //  responsive
+                @include media-medium-2 {
+                    margin-top: 0.5rem;
+                }
                 &:hover,
                 &:active {
                     background-color: $whitesmoke-hover;

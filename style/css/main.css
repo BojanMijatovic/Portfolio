@@ -234,6 +234,9 @@ button {
 .toggleNav {
   padding: 1rem 0;
   height: 17rem; }
+  @media only screen and (min-width: 992px) {
+    .toggleNav {
+      height: 5rem; } }
 
 @keyframes spin {
   0% {
@@ -285,6 +288,9 @@ button {
       font-size: 3rem;
       font-weight: 900;
       color: #fff; }
+      @media only screen and (min-width: 992px) {
+        .header .row .typeEffect {
+          font-size: 4rem; } }
     .header .row .down-arrow {
       margin-top: 3rem;
       animation-name: arrowMovement;
@@ -356,9 +362,15 @@ button {
       @media only screen and (min-width: 992px) {
         .about .row .one .container .col-right .subtitle {
           padding-top: 0; } }
+      @media only screen and (min-width: 1200px) {
+        .about .row .one .container .col-right .subtitle {
+          font-size: 2.4rem; } }
     .about .row .one .container .col-right .__text {
       padding: 0.4rem 0;
       font-size: 1.5rem; }
+      @media only screen and (min-width: 1200px) {
+        .about .row .one .container .col-right .__text {
+          font-size: 1.8rem; } }
   .about .row .two {
     background-color: #f5f5f5;
     padding-top: 4rem;
@@ -487,9 +499,17 @@ button {
       text-transform: uppercase;
       font-size: 2.2rem;
       margin-bottom: 4.2rem; }
+      @media only screen and (min-width: 992px) {
+        .portfolio-grid .item .sub-item .__title {
+          font-size: 1.4rem;
+          margin-bottom: 1rem; } }
     .portfolio-grid .item .sub-item .__text {
       color: #fff;
       font-size: 1.6rem; }
+      @media only screen and (min-width: 992px) {
+        .portfolio-grid .item .sub-item .__text {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem; } }
     .portfolio-grid .item .sub-item .__link {
       background-color: #f5f5f5;
       font-size: 1.3rem;
@@ -501,6 +521,17 @@ button {
       border: none;
       border-radius: 2.5rem;
       transition: all 0.4s ease; }
+      .portfolio-grid .item .sub-item .__link a {
+        font-size: 1.2rem;
+        margin: 0.5rem 0; }
+        @media only screen and (min-width: 992px) {
+          .portfolio-grid .item .sub-item .__link a {
+            margin-top: 1rem;
+            background-color: transparent;
+            padding: 0.5rem 2rem; } }
+      @media only screen and (min-width: 992px) {
+        .portfolio-grid .item .sub-item .__link {
+          margin-top: 0.5rem; } }
       .portfolio-grid .item .sub-item .__link:hover, .portfolio-grid .item .sub-item .__link:active {
         background-color: #c7c7c7;
         color: #333; }

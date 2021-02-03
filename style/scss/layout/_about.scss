@@ -23,14 +23,20 @@
                         font-size: 1.9rem;
                         font-weight: 600;
                         //  responsive
-                        // media-medium-2
                         @include media-medium-2 {
                             padding-top: 0;
+                        }
+                        @include media-large {
+                            font-size: 2.4rem;
                         }
                     }
                     .__text {
                         padding: 0.4rem 0;
                         font-size: 1.5rem;
+                        //  responsive
+                        @include media-large {
+                            font-size: 1.8rem;
+                        }
                     }
                 }
             }
@@ -43,13 +49,11 @@
             text-align: center;
             .container {
                 //  responsive
-                //  media-medium-1
                 @include media-medium-1 {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                 }
                 //  responsive
-                // media-medium-2
                 @include media-medium-2 {
                     grid-template-columns: repeat(4, 1fr);
                 }
@@ -73,7 +77,6 @@
                         margin-right: auto;
                         font-size: 1.4rem;
                         //  responsive
-                        // media-medium-2
                         @include media-medium-2 {
                             width: 100%;
                         }
