@@ -501,12 +501,20 @@ button {
       margin-bottom: 4.2rem; }
       @media only screen and (min-width: 992px) {
         .portfolio-grid .item .sub-item .__title {
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           margin-bottom: 1rem; } }
+      @media only screen and (min-width: 1200px) {
+        .portfolio-grid .item .sub-item .__title {
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem; } }
     .portfolio-grid .item .sub-item .__text {
       color: #fff;
       font-size: 1.6rem; }
       @media only screen and (min-width: 992px) {
+        .portfolio-grid .item .sub-item .__text {
+          font-size: 1rem;
+          margin-bottom: 0.5rem; } }
+      @media only screen and (min-width: 1200px) {
         .portfolio-grid .item .sub-item .__text {
           font-size: 1.3rem;
           margin-bottom: 0.5rem; } }
@@ -517,18 +525,22 @@ button {
       font-weight: 500;
       text-transform: uppercase;
       color: #000;
-      margin-top: 8rem;
+      margin-top: 5rem;
       border: none;
       border-radius: 2.5rem;
       transition: all 0.4s ease; }
       .portfolio-grid .item .sub-item .__link a {
         font-size: 1.2rem;
-        margin: 0.5rem 0; }
+        margin: 0.5rem 0;
+        padding: 0.5rem 1.5rem; }
         @media only screen and (min-width: 992px) {
           .portfolio-grid .item .sub-item .__link a {
             margin-top: 1rem;
-            background-color: transparent;
+            font-size: 1rem;
             padding: 0.5rem 2rem; } }
+        @media only screen and (min-width: 1200px) {
+          .portfolio-grid .item .sub-item .__link a {
+            margin-bottom: 0.5rem; } }
       @media only screen and (min-width: 992px) {
         .portfolio-grid .item .sub-item .__link {
           margin-top: 0.5rem; } }
